@@ -1,9 +1,12 @@
 import React from 'react';
+import Fade from 'react-reveal';
 
 function Ted() {
     return (
+        
         <section className="section" id="tedx">
             <div className="container">
+                <Fade>
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="center-heading">
@@ -18,6 +21,8 @@ function Ted() {
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade>
                 <div className="smallhrholder"><span className="smallhr"></span></div>
                 <div className="row">
                     <div className="col-lg-12">
@@ -33,6 +38,7 @@ function Ted() {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
     </section>);
 }
